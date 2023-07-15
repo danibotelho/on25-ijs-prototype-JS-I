@@ -1,7 +1,7 @@
 
 function Gatos(nome, idade, cor, castrado, externo) {
     this.nome = nome;
-    this.idade = idade;
+    this.idade = idade / 12;
     this.cor = cor;
     this.castrado = castrado;
     this.externo = externo;
@@ -27,7 +27,7 @@ function Gatos(nome, idade, cor, castrado, externo) {
   
   function Cachorros(nome, idade, cor, raca) {
     this.nome = nome;
-    this.idade = idade;
+    this.idade = idade / 12;
     this.cor = cor;
     this.raca = raca;
     this.historicoMedico = new HistoricoMedico();
